@@ -213,20 +213,25 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview
   autoprefixer-rails
   bootsnap
-  bootstrap-sass (~> 3.3)
+  bootstrap-sass
   devise
   dotenv-rails
-  font-awesome-sass (~> 5.0.9)
+  font-awesome-sass
   httparty
   jbuilder (~> 2.0)
   listen (~> 3.0.5)
+  loofah
+  nokogiri
   pg (~> 0.21)
   pry-byebug
   pry-rails
   puma
+  rack
   rails (= 5.2.1)
+  railties
   redis
   rest-client
   sassc
