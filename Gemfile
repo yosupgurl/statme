@@ -2,15 +2,15 @@ source 'https://rubygems.org'
 ruby '2.5.3'
 
 gem 'bootsnap'
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
-gem 'rails', '5.2.1'
+gem 'rails', '5.2.3'
 gem 'redis'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', ">= 3.4.1"
 gem 'font-awesome-sass'
 gem 'sassc'
 gem 'simple_form'
@@ -18,10 +18,10 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'rest-client'
 gem 'httparty'
-gem 'actionview'
-gem 'railties'
-gem 'nokogiri'
-gem 'rack'
+gem 'actionview', '>= 5.2.2.1'
+gem 'railties', ">= 5.2.2.1"
+gem 'nokogiri', '>= 1.8.5'
+gem 'rack', ">= 2.0.6"
 gem 'loofah'
 
 group :development do
