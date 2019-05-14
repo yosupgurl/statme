@@ -10,7 +10,8 @@ gem 'rails', '5.2.3'
 gem 'redis'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', ">= 3.4.1"
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 gem 'font-awesome-sass'
 gem 'sassc'
 gem 'simple_form'
